@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ansonkelly@gmail.com"]
   spec.summary       = %q{Forces all rails request params to be underscored.}
   spec.description   = %q{Forces all rails request params (both GET and POST) to be underscored.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ansonK/underscore_params"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
