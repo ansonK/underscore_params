@@ -1,4 +1,4 @@
-Copyright (c) 2014 ansonK
+Copyright (c) 2014 Anson Kelly
 
 MIT License
 

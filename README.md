@@ -1,6 +1,12 @@
-# UnderscoreParams
+# Underscore Params
 
-TODO: Write a gem description
+Forces all param keys in Rails to be underscored. eg
+
+    {'anObject' => 'value'} turns into {'an_object' => 'value'}
+
+Will underscore all param keys including deeply nested ones.
+
+Helpful if you do not have control over the view layer / what params are being sent to the application and don't want to complicate controllers / models with conversion logic.
 
 ## Installation
 
@@ -18,11 +24,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+* Just reference in Gemfile
+* Works for Rails 4+ (not tested on earlier versions)
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/underscore_params/fork )
+1. Fork it ( http://github.com/ansonK/underscore_params/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

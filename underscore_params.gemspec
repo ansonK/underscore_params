@@ -6,10 +6,10 @@ require 'underscore_params/version'
 Gem::Specification.new do |spec|
   spec.name          = "underscore_params"
   spec.version       = UnderscoreParams::VERSION
-  spec.authors       = ["ansonK"]
+  spec.authors       = ["Anson Kelly"]
   spec.email         = ["ansonkelly@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Forces all rails request params to be underscored.}
+  spec.description   = %q{Forces all rails request params (both GET and POST) to be underscored.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
