@@ -8,6 +8,18 @@ Will underscore all param keys including deeply nested ones.
 
 Helpful if you do not have control over the view layer / what params are being sent to the application and don't want to complicate controllers / models with conversion logic.
 
+Many javascript apps / scripts have the convention of their model attributes to be written using [camelCase](http://en.wikipedia.org/wiki/CamelCase) while ruby prefers the [snake_case](http://en.wikipedia.org/wiki/Snake_case) convention. This gem helps smooth out the inconsistency.
+
+So instead of doing this in controllers:
+
+    params[:objectName] || params[:object_name]
+
+it can be simply
+
+    params[:object_name]
+
+regardless of what format the client sends
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -25,7 +37,7 @@ Or install it yourself as:
 ## Usage
 
 * Just reference in Gemfile
-* Works for Rails 4+ (not tested on earlier versions)
+* Works for Rails 4+ (not tested on earlier versions). YMMV.
 
 ## Contributing
 
